@@ -1,0 +1,25 @@
+parameters:
+- name: SiteFolder
+  type: string
+
+- name: wktohtmlUrl
+  type: string
+
+- name: wktohtmlName
+  type: string
+
+steps:
+- script: sudo cp -R _site /${{ parameters['SiteFolder'] }}
+  displayName: 'Copy files to root to generate pdf'
+
+- script: sudo apt update && sudo apt install wget -y
+  displayName: 'Updating packages and install wget'
+
+- script: wget ${{ parameters['wktohtmlUrl'] }}
+  displayName: 'Downloading wkhtmltopdf'
+
+- script: sudo apt install ./${{ parameters['wktohtmlName'] }}
+  displayName: 'Installing wkhtmltopdf'
+
+- script: wkhtmltopdf --print-media-type --enable-local-file-access /${{ parameters['SiteFolder'] }}/pdf.html _site/assets/${{ parameters['SiteFolder'] }}.pdf
+  displayName: 'Generating pdf from jekyll'

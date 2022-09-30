@@ -1,0 +1,21 @@
+<div class="c-block-1__col-1">
+  <div class="c-list-1">
+      {% for manual in site.data.manuales[page.shortname] %}
+      <a class="c-list-1__item iconfont-mas" href="{{manual.url}}">
+          <div class="c-list-1__box">
+              <strong>{{manual.version}}</strong> {{manual.name}} <span class="separador">/</span> {% if manual.icon %} <img src="../assets/images/{{manual.icon}}" alt="Icon PDF"> {% endif %} <br> <span class="small"><strong>Fecha de liberación: {{manual.releasedate}}</strong></span>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+      {% if item.chapter %}
+      <ul>
+      {% for child in site.pages %}
+        {% if child.chapter == item.chapter %}
+          <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>

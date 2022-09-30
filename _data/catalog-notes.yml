@@ -1,0 +1,31 @@
+catalog:
+  - title: Aranda Enterprise Mobility Management
+    icon: --mobility-management
+    url: /docs/aemm-release-notes.html
+    shortname: aemm-release-notes
+
+  - title: Aranda Field Services
+    icon: --field-services
+    url: /docs/afls-release-notes.html
+    shortname: afls-release-notes
+
+  - title: Aranda Query Manager
+    icon: --query-manager
+    url: /docs/aqm-release-notes.html
+    shortname: aqm-release-notes
+
+  - title: Aranda Service Management
+    icon: --service-management
+    url: /docs/asms-release-notes.html
+    shortname: asms-release-notes
+    
+  - title: Aranda Device Management
+    icon: --device-management
+    url: /docs/adm-release-notes.html
+    shortname: adm-release-notes
+
+  - title: Aranda en versión 8
+    icon: --v8
+    url: /docs/version-8.html
+    shortname: version-8
+

@@ -1,0 +1,13 @@
+navbar:
+  - title: Manuales
+    url: https://docs.arandasoft.com/
+  - title: Notas Release
+    url: https://docs.arandasoft.com/notes.html
+  - title: APIs
+    url: https://docs.arandasoft.com/apis.html
+  - title: Troubleshoting
+    url: https://docs.arandasoft.com/ts.html  
+
+
+
+    

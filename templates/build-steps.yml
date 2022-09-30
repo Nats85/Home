@@ -1,0 +1,18 @@
+steps:
+- task: UseRubyVersion@0
+  inputs:
+    versionSpec: '2'
+
+- script: |
+    gem install bundler
+    bundle install --retry=3 --jobs=4
+  displayName: 'bundle install'
+
+- script: chmod +x pdf.sh
+  displayName: 'Grant execution permissions to pdf script'
+
+- script: ./pdf.sh
+  displayName: 'Generating pdf from markdown files'
+
+- script: exec jekyll build 
+  displayName: 'build docs'

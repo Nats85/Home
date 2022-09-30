@@ -1,0 +1,22 @@
+<nav id="float-nav" class="float-nav">
+    <ul>
+        <li id="float-nav_more">
+            <div id="float-nav_moreIcon" class="float-nav_icon --more-button"></div>
+        </li>
+        {% for item in site.data.catalog-notes.catalog %}
+        <a href="{{item.url}}">
+            <li>
+                <div {% if item.url==page.url %} class="float-nav_icon float-nav_icon_active {{ item.icon }}" {% else %}
+                    class="float-nav_icon {{ item.icon }}" {% endif %}></div>
+                <h1 class="float-nav_title">{{ item.title }}</h1>
+            </li>
+        </a>
+        <script>
+            document.getElementById("float-nav_more").addEventListener("click", () => {
+                document.getElementById("float-nav").classList.toggle("float-nav_active")
+                document.getElementById("float-nav_moreIcon").classList.toggle("rotate180")
+            })
+        </script>
+        {% endfor %}
+    </ul>
+</nav>

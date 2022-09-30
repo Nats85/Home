@@ -1,0 +1,13 @@
+catalog:
+  - title: Aranda CMDB
+    icon: --cmdb
+    url: /docs/cmdb-apis.html
+
+  - title: Aranda Service Desk
+    icon: --service-management
+    url: /docs/asdk-apis.html  
+      
+  - title: Aranda Service Management
+    icon: --service-management
+    url: /docs/asms-apis.html
+

@@ -1,0 +1,39 @@
+parameters:
+- name: AzureSubscription
+  type: string 
+
+- name: StorageAccount
+  type: string 
+
+- name: SiteFolder
+  type: string
+
+steps:
+- task: AzureCLI@2
+  displayName: Clean site
+  inputs:
+    azureSubscription: ${{ parameters['AzureSubscription'] }}
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      az storage blob delete-batch \
+        --source \$web \
+        --account-name "${{ parameters['StorageAccount'] }}" \
+        --pattern "${{ parameters['SiteFolder'] }}/*" \
+        --output table 
+
+- task: AzureCLI@2
+  displayName: Publish site
+  inputs:
+    azureSubscription: ${{ parameters['AzureSubscription'] }}
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      az storage blob upload-batch \
+        --destination \$web \
+        --destination-path "${{ parameters['SiteFolder'] }}" \
+        --account-name "${{ parameters['StorageAccount'] }}" \
+        --source "$(Build.SourcesDirectory)/_site" \
+        --output table \
+        --overwrite true \
+        --no-progress

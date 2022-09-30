@@ -1,0 +1,6 @@
+catalog:
+  - title: <a href="#">Aranda Service Desk</a>
+    icon: --service-desk
+
+  - title: <a href="#">Aranda Field Services</a>
+    icon: --field-services
