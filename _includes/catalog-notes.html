@@ -1,0 +1,44 @@
+<section class="ar-section --white" target="productos">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="ar-section-heading">Notas Release Productos Aranda Software</h1>
+            </div>
+        </div>
+        <div class="ar-section__content">
+            <div class="ar-services-container">
+                <div class="row no-gutters">
+                    {% for item in site.data.catalog-notes.catalog %}
+                    {% assign lastReleaseDate = site.data.articulos[item.shortname][0].releasedate | date: '%s' %}
+                    {% assign lastManualDate = site.data.manuales[item.shortname][0].releasedate | date: '%s' %}
+                    {% if lastReleaseDate > lastManualDate %}
+                        {% assign lastDate = lastReleaseDate %}
+                    {% else %}
+                        {% assign lastDate = lastManualDate %}
+                    {% endif %}
+                    {% assign nowTimestamp = 'now' | date: '%s' %}
+                    {% assign diffSeconds = nowTimestamp | minus: lastDate %}
+                    {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ar-badge-service --gray --touch" data-overlay="{{ item.overlay.name }} "
+                            data-bg-color="{{ item.color }}">
+                            <div class="ar-badge-service__icon {{ item.icon }}"></div>
+                            <div class="ar-badge-service__description">
+                                <a href="{{item.url}}">
+                                    <h1>
+                                        {{ item.title }} {{las}}
+                                    </h1>
+                                    {% if diffDays >= 0 and diffDays <= 7 %} <div class="ar-badge-service__new">
+                                        <p>Nuevo</p>
+                            </div>
+                            {% endif %}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    </div>
+</section>

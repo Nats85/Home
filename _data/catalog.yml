@@ -1,0 +1,84 @@
+catalog:
+  - title: Aranda CMDB
+    icon: --cmdb
+    url: /docs/cmdb.html
+    shortname: cmdb
+    tags: [cmdb, Configuration Management DataBase, CI, ci, CIs, Asset Management, ASDK, elementos de configuracion, consola windows, configuración, configuracion, proyectos, categoría, categoria, permisos, estados, transición, campos lokup, AFS, file server, agrupaciones, perfiles, usuarios, especialistas, reglas, centro de costo, acción, router, motor de BD, portatil, relaciones, asociar ci, importar ci,  exportar ci, SNMP, contratos, proveedores, mantenimientos, presupuestos, auditorias, catalogo, catálogo de servicios]
+
+  - title: Aranda Database - Modelos DB
+    icon: --database
+    url: https://docs.arandasoft.com/database/9.5.27
+    shortname: Database
+    tags: [tablas, campos, modelos, base de datos, database, ADM, AAM, AFLS, ASDK, ASMS, AVS, CMDB,  ]
+
+  - title: Aranda DB Tools
+    icon: --database-tools
+    url: /docs/adbt.html
+    shortname: adbt
+    tags: [database, tools, base de datos, datos, on-premise, DB Tools, ADBT, paquetes, packages, cadena de conexion, cadena de conexión, connection string, servicios, services,]
+
+  - title: Aranda Datasafe
+    icon: --datasafe
+    url: /docs/ads.html
+    shortname: ads
+    tags: [ads, ADS, data safe, dispositivos, datos, seguridad, copia de seguridad, conector, active directory, perdida de datos, pérdida de datos, prevencion, prevención, agente, discovery agent, descubrimiento, agente, inventario, datasafe, equipos, repositorio, política, politica, restaurar, cifrado, migración, remota, datos, protección, proteccion, filtrar, politicas, geolocalizacion, administrador, usuarios, microsoft, licencias, respaldo, restauracion, pérdida, perdida, robo, revocar, borrado, migracion] 
+
+  - title: Aranda Device Management
+    icon: --device-management
+    url: /docs/adm.html
+    shortname: adm
+    tags: [adm, device, management, conserver, repserver, cruncher, MQTT, agente, linux, mac, windows, puertos, hardware, software, archivos, integraciones, directorio activo, alertas, usuarios, restricciones, permisos, servidor, sistema operativo, inventarios, actualizaciones, distribuciones, políticas, dispositivos, descubrimiento]
+
+  - title: Manuales de productos Aranda en versión 8
+    icon: --v8
+    url: /docs/v8.html
+    shortname: v8
+    tags: [AVS, virtual support, control remoto, servidor, cliente, soporte, AAM, asset management, data safe, ADS, APWM, power management, hardware, software, agente, conserver, cruncher, inventarios, alarmas, administracion remota, agrupaciones, pc browser, computador, procesador, memoria, monitoreo, estados, consola IAMT, campos lookups, encuesta, obtener inventario, servicios, estacion de trabajo, estaciones, control de licenciamiento, control remoto, ASD, data safe, backup, copia, seguridad, datos, recuperar, información, DLP, encriptación, prevención, robo, ldap, servidor, cifrado, seguridad, exclusión, grupos, usuarios, power management, energía, energia, consumo, medio ambiente, green computing, APWM, consumo, ahorro, CO2, kw, políticas, dinero, kilovatios, hibernar, consumos, rendimiento, apagar, suspender, encender, agenda, software delivery, ASD, distribucion, package, catalogo, ASM, software metrix, licenciamiento, proveedor, contratos, centro de costo, factura, grupo de software, aplicación, sistema operativo, estados, licencias]
+
+  - title: Aranda Enterprise Mobility Management
+    icon: --mobility-management
+    url: /docs/aemm.html
+    shortname: aemm
+    tags: [AEMM, Aranda Enterprise Mobility Management, mobility, dispositivo, móviles, moviles, addons, cruncher, mdm, ldap, politica, política, calendarios,vinculacion, soporte remoto,windows, ios, preferencias, scripts, zonas, estado, android, desvinculacion, dashboard, hoja de vida, aplicaciones, ubicacion, grupos, proyectos, consumos, politicas, políticas, versionamiento, reglas, documentos, archivos, roles, permisos, alertas, content management, servidor ]
+
+  - title: Aranda Field Services
+    icon: --field-services
+    url: /docs/afls.html
+    shortname: afls
+    tags: [AFLS,field, service,ordenes, órdenes, ordenes de trabajo, operacion, servicio, dispositivos, moviles, móviles, android, iphone, especialistas, en campo, administrador, despachador, monitor, gestor, inventario, orden de trabajo, sla, acuerdos, super administrador, cliente, servicio, mapas, geoJSON, ola, acuerdos operacionales, uc, calendarios cronometros, cronómetros,  modelo, servicio, relación, compañía, transporte, proveedor, habilidades, usuarios, grupos, zonas, reglas, ldap, horas, gestion, gestión, repuestos, movimientos, reportes, monitoreo, alertas, movil, móvil, assistme, unidad de medida]
+
+  - title: Aranda Pass Recovery
+    icon: --passrecovery
+    url: /docs/apr.html
+    shortname: apr
+    tags: [password, recovery, APR, contraseña, desbloqueo, administración, usuario, usuarios, casos, cambio de clave, restauracion,desbloquear cuenta, reestablecer contraseña, preguntas, seguridad, dominio,  ]
+
+  - title: Aranda Query Manager
+    icon: --query-manager
+    url: /docs/aqm.html
+    shortname: aqm
+    tags: [AQM, reportes, dashboard, tablas, gráficos, datos, usuarios, grupos, servidor de correo, correo, base de datos, fuente de datos, caqrpetas, permisos, catalogo, catálogo, tableros, autenticacion, proveedores, auditoría, auditoria, carga masiva, documentos, asociar usuarios, diseñador, diseñador tableros, diseñador reportes, controles, control, mapa, diseño, filtro, customizado, tareas, enlaces, interactividad, convertir a, data source, parámetros, moneda, color, consultas, query builder, query, generador de consultas, tablas, query, relación, join, datos, zonas horarias, fechas, horario, time zone, excel, publicar, programar, comparte por correo, correo, permisos, exportación, csv, formatos, paginación]
+
+  - title: Aranda Service Desk
+    icon: --service-desk
+    url: /docs/asdk.html
+    shortname: asdk
+    tags: [ASDK, mesa, servicio, especialista, casos, caso, proyecto, incidentes, cambios, problemas, requermientos, soporte, solicitudes, cliente, compañia, campos adicionales, blogik, grupos, gestión, formulario, registro, ci, categoría, categoria, adjuntos, plantilla, histórico, relación, relaciones, sla, urgencia, tiempos, tiempo, ans, atención, atencion, solucion, solución, progreso, costo, esfuerzo, usuario, estado, razón, asignación, vistas, plantilla, urgencia, registro, atencion, progreso, enrutamiento, aprobación, votación, relacionar, tareas, alarmas, base de conocimiento, artículos, razón, configuración, procesos, basdk, encuesta de satisfacción, acciones, estados, registrado, en proceso, suspendido, solucionado, cerrado, evaluación, error conocido, aprobación, construcción, pruebas, implementación, asignada, en proceso, realizada, aprobado, razon, catalogo, transición, transicion, flujo, razones, empresa, usdk, encuesta,regla, proveedor, chat, grupo de especialistas, asociar usuarios, balanceo, responsable, carga, impacto, prioridad, interfaz, fron end, banner, noticias, adjuntar imagen, plantilla, correos, matriz de prioridad, moneda, reasignaciones, turno, móvil, asdk mobile, android, ios, emergency, health] 
+
+  - title: Aranda Service Management
+    icon: --service-management
+    url: /docs/asms.html
+    shortname: asms
+    tags: [ASMS, ASMSCustomer, casos, crear casos, database tools, administrator, specialist, custome, Aranda License Windows Service, Aranda Scheduler Windows Service, Aranda Worker Windows Service, consola administración, gestión, activos, mesa de ayuda, proyectos, modelos, servicios, categorías, acuerdos de servicio, modelos, flujo de trabajo, niveles de servicio, roles, activo, SLA, acuerdos, OLA, artículo, auditoría, banner, base de conocimiento, campos adicionales, cambio, catálogo, CI, elemento de configuración, especialista, estados, evento, flujo de estado, incidente, interfaz, matriz de prioridades, modelo, paquete, perfiles, regla, relación, requerimientos de servicio, servicio, servidor de correo, release, liberación, proyecto, balanceo de carga, responsable, especialista, ldap, url, licencias, usuarios nombrados, tipo de registro, impacto, urgencia, prioridad, unidad de medida, razón de reasignación, Lightweight Directory Access Protocol, noticias, eventos, reasignaciones, encuestas, alertas, calendario, horario, horas laborales, carga masiva, administrador de contenidos, diseñador, geocerca, cliente, especialista, compañía, proveedor, empresa, campos adicionales, visible, editable, obligatorio, plantillas de correo, ubicaciones, ciudad, país, sede, edificio, usuarios, grupos, permisos, área organizacional, procesos de negocio, tarifas, finanzas, contrato, transición, transición, razones, factura, documentos, archivos, presupuesto, service desk, tareas, guiones, razón, comportamiento, solucionado, en progreso, en espera, evaluación, análisis, corrección en proceso, aprobado, programado, construcción, revisión, planeación, condiciones, tiempos, cronómetros, cumplimiento, temporizador, aprobaciones, riesgos, vistas, reglas, condiciones, acciones, relaciones, plantillas, impacto, correo electrónico, integraciones, formularios, catalogo, portafolio de servicios, UC, carpetas, tipo de registro, notificaciones, modelos financieros, notificaciones programadas, cmdb, ci, base de datos, adml, guión, paquetes, mantenimientos, conector, asociar usuarios, tipo de caso, dashboard, vistas por defecto, múltiples casos, consola especialista, esfuerzo, riesgo, historial, enviar correo, agregar nota, tiempos y costos, customer, consola clientes, satisfacción, panel de novedades, novedades, calendario de cambios, FSC, Forward Schedule of Change, mobile, móvil, Assistme, dispositivos, mi portal, código QR, chatbot, mis solicitudes, agregar nota, ayuda, calificación, asms mobile, enrutamiento, reasigmnación, cambio de estado, marca de agua, abiertas, vencidas, por vencer, biblioteca, reasignar solicitudes, enrutar, enrutar solicitudes, cambiar estado, mis tareas]
+
+  - title: Integración con otros fabricantes
+    icon: --integraciones
+    url: /docs/aic.html
+    shortname: aic
+    tags: [AIC, integración, centro de integraciones, archivos de configuración, techpulse, registro, archivo de configuración, asdk, mapeo de subtipos, registrar propiedades caso, obtener tenants, archivo configuración, asms, hp, integración adm service now, service now]     
+  
+  - title: Lineamientos Generales de Configuración
+    icon: --common
+    url: /docs/common.html
+    shortname: common
+    tags: []

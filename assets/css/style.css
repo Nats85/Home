@@ -1,0 +1,255 @@
+.float-nav {
+    background: #F3F2F6 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    bottom: 100px;
+    box-shadow: 0px 6px 15px #3532605C;
+    display: flex;
+    padding-left: 15px;
+    position: fixed;
+    transition: .3s;
+    width: 57px;
+    z-index: 1;
+}
+
+.float-nav ul li {
+    align-items: center;
+    display: flex;
+    margin: 5px auto;
+    white-space: nowrap;
+}
+
+.float-nav_active {
+    width: 300px;
+}
+
+.float-nav_title {
+    color: #576574;
+    display: none;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.float-nav ul a {
+    text-decoration: none;
+}
+
+.float-nav_active .float-nav_title {
+    display: block;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.float-nav_icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 31px;
+    min-width: 28px;
+    width: 28px;
+}
+
+.float-nav_icon_active {
+    filter: invert(0) sepia(0) saturate(60) hue-rotate(175deg);
+}
+
+.float-nav_icon.--health-support {
+    background-image: url("../images/services/health-support.svg")
+}
+
+.float-nav_icon.--device-management {
+    background-image: url("../images/services/device_management.svg")
+}
+
+.float-nav_icon.--service-management {
+    background-image: url("../images/services/service-management.svg")
+}
+
+.float-nav_icon.--service-desk {
+    background-image: url("../images/services/service-desk.svg")
+}
+
+.float-nav_icon.--field-services {
+    background-image: url("../images/services/field-services.svg")
+}
+
+.float-nav_icon.--cmdb {
+    background-image: url("../images/services/cmdb.svg")
+}
+
+.float-nav_icon.--virtual-support {
+    background-image: url("../images/services/virtual-support.svg")
+}
+
+.float-nav_icon.--mobility-management {
+    background-image: url("../images/services/mobility-management.svg")
+}
+
+.float-nav_icon.--database-tools {
+    background-image: url("../images/services/database-tools.svg")
+}
+
+.float-nav_icon.--virtual-agent {
+    background-image: url("../images/services/virtual-agent.svg")
+}
+
+.float-nav_icon.--query-manager {
+    background-image: url("../images/services/query-manager.svg")
+}
+
+.float-nav_icon.--integraciones {
+    background-image: url("../images/services/integraciones.svg")
+}
+
+.float-nav_icon.--v8 {
+    background-image: url("../images/services/v8.svg")
+}
+
+.float-nav_icon.--database {
+    background-image: url("../images/services/database.svg")
+}
+
+.float-nav_icon.--datasafe {
+    background-image: url("../images/services/ads.svg")
+}
+.float-nav_icon.--passrecovery {
+    background-image: url("../images/services/passrecovery.svg")
+}
+.float-nav_icon.--common {
+    background-image: url("../images/services/common.svg")
+}
+
+.float-nav_icon.--more-button {
+    background-image: url("../images/more-button.svg");
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-left: 7px;
+    margin-top: 5px;
+    min-width: 12px;
+    transition: .5s;
+    width: 12px;
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+}
+
+.ar-badge-service__new {
+    align-items: center;
+    background-color: #1AC3E2;
+    border-radius: 3px;
+    display: flex;
+    height: 17px;
+    justify-content: center;
+    margin-left: auto;
+    min-width: 41px;
+    width: 41px;
+}
+
+
+.ar-badge-service__new p {
+    color: white;
+    font-size: 11px;
+}
+
+.ar-badge-service__description a {
+    align-items: center;
+    display: flex;
+}
+
+.ar-badge-service__description a:hover {
+    text-decoration: none !important;
+}
+
+.ar-badge-service__description a:hover h1 {
+    text-decoration: underline;
+}
+
+.c-list-1_tagnew {
+    align-items: center;
+    background-color: #1AC3E2;
+    border-radius: 3px;
+    display: flex;
+    height: 17px;
+    justify-content: center;
+    min-width: 41px;
+    width: 41px;
+}
+
+.c-list-1_tagnew p {
+    color: white;
+    font-size: 11px;
+}
+
+.c-list-1__item:hover {
+    text-decoration: none;
+}
+
+.c-list-1__item:hover .c-list-1__box .c-list-1__name {
+    text-decoration: underline;
+}
+
+.c-list-1__item:hover .c-list-1__box .name {
+    text-decoration: underline;
+}
+
+.c-nav-3__icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.c-nav-3__box .iconfont-flecha-der {
+    margin-top: 3px;
+    height: 4px;
+    min-width: 8px;
+    width: 8px;
+    background-image: url("../images/arrow-down.svg");
+    transform: rotate(0deg);
+    transition: all .4s ease;
+}
+
+.c-nav-3__box .iconfont-filtro {
+    height: 11px;
+    min-width: 13px;
+    width: 13px;
+    background-image: url("../images/filter_by.svg");
+    transform: rotate(0deg);
+    filter: invert(1) sepia(0) saturate(0) hue-rotate(175deg);
+    transition: all .2s ease;
+}
+
+.c-nav-3__box:hover .iconfont-filtro {
+    filter: none;
+}
+
+.active .iconfont-filtro {
+    filter: none;
+}
+
+.active .iconfont-flecha-der {
+    transform: rotate(180deg);
+}
+
+#r-header-list {
+    width: 100%;
+    position: absolute;
+    height: auto;
+    z-index: 1;
+    margin-top: 2px;
+    background-color: #fff;
+    padding: 0 20px;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #666d73;
+    transition: all .3s ease;
+    box-shadow: 0px 0px 2px rgb(224, 224, 224);
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+#r-header-list li {
+    margin-top: 4px;
+    margin-bottom: 6px;
+}

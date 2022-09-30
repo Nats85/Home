@@ -1,0 +1,649 @@
+adm:
+  - product: Manuales Aranda Device Management
+    version: Versión 9.15
+    url: https://docs.arandasoft.com/adm
+    name: Manual de uso ADM
+    icon:
+    releasedate: july 8, 2022
+
+  - product: Manuales Aranda Device Management
+    version:
+    url: https://docs.arandasoft.com/adm-db
+    name: Vistas de Cliente ADM (Modelos DB)
+    icon:
+    releasedate: March 29, 2022
+
+asdk:
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/asdk/aranda-service-desk-v8-consola-especialista.pdf
+    name: Manual Consola Especialista ASDK
+    icon: icon-pdf.svg
+    releasedate: January 29, 2019
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/asdk/Manual Consola BLOGIK ES V6 - Editable.pdf
+    name: Manual Administración y Configuración Consola BLOGIK
+    icon: icon-pdf.svg
+    releasedate: March 4, 2020
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/asdk/manual-de-configuracin-usdk-v8.pdf
+    name: Manual de Configuración - Consola Usuarios USDK
+    icon: icon-pdf.svg
+    releasedate: January 30, 2019
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/asdk/Manual de uso ASDK Movil Android.pdf
+    name: Manual de uso ASDK Móvil Android
+    icon: icon-pdf.svg
+    releasedate: January 30, 2019
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/asdk/Manual de Uso ASDK Movil iOS.pdf
+    name: Manual de Uso ASDK Móvil iOS
+    icon: icon-pdf.svg
+    releasedate: January 30, 2019
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/asdk/Manual de Uso Helper Movil Android.pdf
+    name: Manual de Uso Helper Móvil Android
+    icon: icon-pdf.svg
+    releasedate: January 30, 2019
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/asdk/Manual de Uso Helper Movil IOS.pdf
+    name: Manual de Uso Helper Móvil IOS
+    icon: icon-pdf.svg
+    releasedate: January 30, 2019
+
+  - product: Manuales Aranda Service Desk
+    version: Versión 
+    url: https://docs.arandasoft.com/ava
+    name: Manual de uso Aranda Virtual Agent AVA
+    icon:
+    releasedate: September 12, 2022
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/asdk/Configuracion_para_la_autenticacion_moderna -OAUTH_2.O.pdf
+    name: Configuración para la Autenticación Moderna Oauth 2.0
+    icon: icon-pdf.svg
+    releasedate: September 5, 2022
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/asdk/Autenticacion_OAuth_ASDK_Web_8.29.0.pdf
+    name: Autenticacion OAuth ASDKWeb 8.29.0
+    icon: icon-pdf.svg
+    releasedate: September 5, 2022
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/asdk/Actualizacion_ASDK_WEB_8.29.0.pdf
+    name: Actualización ASDKWeb 8.29.0
+    icon: icon-pdf.svg
+    releasedate: September 5, 2022
+
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/asdk-db/pages/01_Consideraciones_Bases_de_Datos_ASDK/01-Copia_Respaldo.html
+    name: Vistas de Cliente ASDK (Modelos DB)
+    icon:
+    releasedate: March 29, 2022
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/aer
+    name: Aranda Health Report ASDK
+    icon:
+    releasedate: November 11, 2020
+
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/asdk
+    name: Videos de Apoyo - configuración Inicial ASDK
+    icon:
+    releasedate: August 25, 2020
+
+asms:
+  - product: Aranda Service Management
+    version:
+    url: https://docs.arandasoft.com/asms-setup
+    name: Guía de instalación ASMS
+    icon:
+    releasedate: 2021
+
+  - product: Aranda Service Management
+    version:
+    url: https://docs.arandasoft.com/asms-admin
+    name: Manual de uso ASMS- Consola de administración
+    icon:
+    releasedate: April 21, 2022
+
+  - product: Aranda Service Management
+    version:
+    url: https://docs.arandasoft.com/asms-specialist
+    name: Manual de uso ASMS - Consola de especialistas
+    icon:
+    releasedate: April 11, 2022
+
+  - product: Aranda Service Management
+    version:
+    url: https://docs.arandasoft.com/asms-customer
+    name: Manual de uso ASMS - Consola de clientes
+    icon:
+    releasedate: April 11, 2022
+
+  - product: Aranda Service Management
+    version:
+    url: https://docs.arandasoft.com/helper
+    name: Aranda AssistME mobile
+    icon:
+    releasedate: February 11, 2022
+
+  - product: Aranda Service Management
+    version:
+    url: https://docs.arandasoft.com/asms-mobile
+    name: Aranda ASMS Mobile
+    icon:
+    releasedate: February 14, 2022
+
+  - product: Aranda Service Management
+    version: Versión 9
+    url: https://docs.arandasoft.com/ava-v9
+    name: Manual de uso Aranda Virtual Agent AVA
+    icon:
+    releasedate: September 12, 2022
+
+afls:
+  - product: Aranda Field Services
+    version:
+    url: https://docs.arandasoft.com/afls
+    name: Manual de uso AFLS
+    icon:
+    releasedate: April 11, 2022
+
+  - product: Aranda Field Services
+    version: Versión V9.12
+    url: https://docs.arandasoft.com/afls-specialist
+    name: Consola Móvil AFLS
+    icon:
+    releasedate: September 20, 2021
+
+  - product: Aranda Field Services
+    version: Versión 09.04.2021
+    url: https://docs.arandasoft.com/assets/pdfs/afls/Manual AssistMe 09.04.2021.pdf
+    name: Manual AssistMe AFLS
+    icon: icon-pdf.svg
+    releasedate: October 26, 2021
+
+  - product: Aranda Field Services
+    version:
+    url: https://docs.arandasoft.com/afls-db/pages/01-consideraciones_bases_de_datos/01-Recomendaciones-Generales.html
+    name: Vistas de Cliente AFLS (Modelos DB)
+    icon:
+    releasedate: March 17, 2022
+
+v8:
+  - product: Aranda Virtual Support
+    version: Versión 2
+    url: https://docs.arandasoft.com/avs
+    name: Manual de uso AVS
+    icon:
+    releasedate: October 21, 2020
+
+  - product: Manuales de productos Aranda en versión 8
+    version: Versión 2
+    url: https://docs.arandasoft.com/assets/pdfs/Version8/aranda-asset-management-v8.pdf
+    name: Manual de Uso Asset Management
+    icon: icon-pdf.svg
+    releasedate: August 21, 2018
+
+  - product: Manuales de productos Aranda en versión 8
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/Version8/Autenticacion_OAuth_AAMS_8.14.0.pdf
+    name: Autenticación OAuth Asset Management Service 8.14.0
+    icon: icon-pdf.svg
+    releasedate: September 5, 2022
+
+  - product: Manuales de productos Aranda en versión 8
+    version: Versión 1
+    url: https://docs.arandasoft.com/assets/pdfs/Version8/aranda-data-safe-v8.pdf
+    name: Manual de Instalación y Uso Aranda data safe
+    icon: icon-pdf.svg
+    releasedate: November 22, 2017
+
+  - product: Manuales de productos Aranda en versión 8
+    version: Versión 2
+    url: https://docs.arandasoft.com/assets/pdfs/Version8/aranda-power-managementv-8.pdf
+    name: Manual de Instalación y Uso Power Management
+    icon: icon-pdf.svg
+    releasedate: October 2, 2018
+
+  - product: Manuales de productos Aranda en versión 8
+    version: Versión 2
+    url: https://docs.arandasoft.com/assets/pdfs/Version8/aranda-software-delivery-v-8.pdf
+    name: Manual de Instalación y Uso Software Delivery
+    icon: icon-pdf.svg
+    releasedate: September 28, 2018
+
+  - product: Manuales de productos Aranda en versión 8
+    version: Versión 2
+    url: https://docs.arandasoft.com/assets/pdfs/Version8/aranda-software-metrix-v-8.pdf
+    name: Manual de Instalación y Uso Software Metrix
+    icon: icon-pdf.svg
+    releasedate: October 3, 2018
+
+cmdb:
+  - product: Aranda CMDB
+    version: Versión 2
+    url: https://docs.arandasoft.com/assets/pdfs/Version8/aranda-cmdb-v8aranda-softwaremanuales.pdf
+    name: Manual de instalación y uso Aranda CMDB
+    icon: icon-pdf.svg
+    releasedate: August 21, 2018
+
+  - product: Aranda CMDB
+    version: Versión 2
+    url: https://docs.arandasoft.com/assets/pdfs/Version8/aranda-cmdb-v8-webaranda-softwaremanuales.pdf
+    name: Manual de instalación y uso - Consola Web Aranda CMDB
+    icon: icon-pdf.svg
+    releasedate: August 16, 2018
+
+aemm:
+  - product: Aranda Enterprise Mobility Management
+    version: Versión V9.21
+    url: https://docs.arandasoft.com/aemm
+    name: Manual de Uso AEMM
+    icon:
+    releasedate: February 09, 2022
+
+  - product: Aranda Enterprise Mobility Management
+    version: Versión 9.18
+    url: https://docs.arandasoft.com/assets/pdfs/aemm/manual-aranda-aemm-enero-2021-version-aemm-9-18-mq.pdf
+    name: Manual de Instalación y Uso AEMM
+    icon: icon-pdf.svg
+    releasedate: January 05,, 2021
+
+adbt:
+  - product: Aranda Database Tools
+    version:
+    url: https://docs.arandasoft.com/adbt
+    name: Manual de uso ADBT
+    icon:
+    releasedate: December 04, 2020
+
+  - product: Aranda Database Tools
+    version:
+    url: https://docs.arandasoft.com/assets/pdfs/Version8/Autenticacion_OAuth_AT_8.8.0.pdf
+    name: Autenticación OAuth Aranda Tools 8.8.0
+    icon: icon-pdf.svg
+    releasedate: September 5, 2022
+
+aic:
+  - product: Manuales AIC
+    version: Versión 9.01
+    url: https://docs.arandasoft.com/aic
+    name: Manual de uso AIC
+    icon:
+    releasedate: April 04, 2022
+
+ava:
+  - product: Aranda Virtual Agent
+    version:
+    url: https://docs.arandasoft.com/ava
+    name: Manual de uso AVA
+    icon:
+    releasedate: November 30, 2021
+
+aqm:
+  - product: Aranda Query Manager
+    version:
+    url: https://docs.arandasoft.com/aqm
+    name: Manual de uso AQM
+    icon:
+    releasedate: March 28, 2022
+
+  - product: Aranda Query Manager
+    version:
+    url: https://docs.arandasoft.com/database/9.5.27
+    name: Aranda Database - Modelos DB
+    icon:
+    releasedate: March 29, 2022
+
+
+aqm-release-notes:
+  - product: Aranda Query Manager Release Notes
+    version: Versión Base de Datos 9.5.28
+    url: https://docs.arandasoft.com/aqm-release-notes/pages/9.27/01-autenticaci%C3%B3n-correo-oauth.html
+    name: Release note 9.27
+    icon:
+    releasedate: September 8, 2022
+
+  - product: Aranda Query Manager Release Notes
+    version: Versión Base de Datos RC9.5.27.1
+    url: https://docs.arandasoft.com/aqm-release-notes/pages/9.26/01-menu-especialistas.html
+    name: Release note 9.26
+    icon:
+    releasedate: August 11, 2022
+
+  - product: Aranda Query Manager Release Notes
+    version: Versión Base de Datos 9.5.26
+    url: https://docs.arandasoft.com/aqm-release-notes/pages/9.25/01-recarga-tableros.html
+    name: Release note 9.25
+    icon:
+    releasedate: July 8, 2022
+
+  - product: Aranda Query Manager Release Notes
+    version: Versión Base de Datos 9.5.24
+    url: https://docs.arandasoft.com/aqm-release-notes/pages/9.24/01-mejoras-excepciones.html
+    name: Release note 9.24
+    icon:
+    releasedate: May 27, 2022
+
+  - product: Aranda Query Manager Release Notes
+    version: Versión Base de Datos 9.5.23
+    url: https://docs.arandasoft.com/aqm-release-notes/pages/9.23/01-mejoras-excepciones.html
+    name: Release note 9.23
+    icon:
+    releasedate: May 6, 2022
+
+  - product: Aranda Query Manager Release Notes
+    version: Versión Base de Datos 9.5.22
+    url: https://docs.arandasoft.com/aqm-release-notes/pages/9.22/01-interfaz-grupos.html
+    name: Release note 9.22
+    icon:
+    releasedate: March 25, 2022
+
+  - product: Aranda Query Manager Release Notes
+    version: Versión Base de Datos 9.5.21
+    url: https://docs.arandasoft.com/aqm-release-notes/pages/9.21/01-validacion-scripts.html
+    name: Release note 9.21
+    icon:
+    releasedate: March 24, 2022
+
+  - product: Aranda Query Manager Release Notes
+    version: Versión Base de Datos
+    url: https://docs.arandasoft.com/aqm-release-notes/pages/9.20/01-jerarquia-carpetas.html
+    name: Release note 9.20
+    icon:
+    releasedate: February 7, 2022
+
+  - product: Aranda Query Manager Release Notes
+    version: Versión Base de Datos
+    url: https://docs.arandasoft.com/aqm-release-notes/pages/9.19/01-correcciones.html
+    name: Release note 9.19
+    icon:
+    releasedate: February 7, 2022
+
+asms-release-notes:
+  - product: Manuales Aranda Service Desk
+    version: Versión Base de Datos 9.5.28
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.3.8/Auth-Oauth.html
+    name: Release note 9.3.8
+    icon:
+    releasedate: September 13, 2022
+
+  - product: Manuales Aranda Service Desk
+    version: Versión Base de Datos 9.5.25
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.3.6/CH-25584.html
+    name: Release note 9.3.6
+    icon:
+    releasedate: June 6, 2022
+
+  - product: Manuales Aranda Service Desk
+    version: Versión Base de Datos 9.5.24
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.3.5/CH-26135.html
+    name: Release note 9.3.5
+    icon:
+    releasedate: May 2, 2022
+
+  - product: Manuales Aranda Service Desk
+    version: Versión Base de Datos 9.5.23
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.3.4/01_modificacion_formato_creacion_caso.html
+    name: Release note 9.3.4
+    icon:
+    releasedate: April 6, 2022
+
+  - product: Manuales Aranda Service Desk
+    version: Versión Base de Datos 9.5.22
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.3.3/CH-24158.html
+    name: Release note 9.3.3
+    icon:
+    releasedate: March 24, 2022
+
+  - product: Manuales Aranda Service Desk
+    version: Versión Base de Datos 9.5.21
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.3.2/CH01-case-creator.html
+    name: Release note 9.3.2
+    icon:
+    releasedate: February 7, 2022
+
+  - product: Manuales Aranda Service Desk
+    version: Versión Base de Datos 9.5.21
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.3.1.1/01-calculo_del_progreso_en_caso.html
+    name: Release note 9.3.1.1
+    icon:
+    releasedate: February 7, 2022
+
+  - product: Manuales Aranda Service Desk
+    version: Versión Base de Datos 9.5.20
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.3.0.11/01-creacion-masiva-calendarios.html
+    name: Release note 9.3.0.11
+    icon:
+    releasedate: February 7, 2022
+
+  - product: Manuales Aranda Service Desk
+    version: Versión Base de Datos 9.5.19
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.2.3.8/01-pagina-votacion.html
+    name: Release note 9.2.3.8
+    icon:
+    releasedate: February 7, 2022
+
+  - product: Manuales Aranda Service Desk
+    version: Versión Base de Datos 9.5.18
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.2.2.4/00-articulos-visualizacion.html
+    name: Release note 9.2.2.4
+    icon:
+    releasedate: February 7, 2022
+
+adm-release-notes:
+  - product: Manuales Aranda Device Management
+    version: Versión Base de Datos 9.5.28
+    url: https://docs.arandasoft.com/adm-release-notes/pages/9.15.2/01-PM-31407-19-200928.html
+    name: Release note versión 9.15.2
+    icon:
+    releasedate: September 7, 2022
+
+  - product: Manuales Aranda Device Management
+    version: Versión Base de Datos 9.5.27
+    url: https://docs.arandasoft.com/adm-release-notes/pages/9.15.1.5/01-PM-31079-19-200904.html
+    name: Release note versión 9.15.1.5
+    icon:
+    releasedate: August 11, 2022
+
+  - product: Manuales Aranda Device Management
+    version: Versión Base de Datos 9.5.26
+    url: https://docs.arandasoft.com/adm-release-notes/pages/9.15.0.9/01-PM-24364-19-200540.html
+    name: Release note 9.15.0.9
+    icon:
+    releasedate: july 8, 2022
+
+  - product: Manuales Aranda Device Management
+    version: Versión Base de Datos 9.5.25
+    url: https://docs.arandasoft.com/adm-release-notes/pages/9.14.2.3/01-PM-27546-19-200699.html
+    name: Release note 9.14.2.3
+    icon:
+    releasedate: June 3, 2022
+
+  - product: Manuales Aranda Device Management
+    version: Versión Base de Datos 9.5.23
+    url: https://docs.arandasoft.com/adm-release-notes/pages/9.14.1.1/01-descripcionerrores.html
+    name: Release note 9.14.1.1
+    icon:
+    releasedate: April 29, 2022
+
+  - product: Manuales Aranda Device Management
+    version: Versión Base de Datos 9.5.23
+    url: https://docs.arandasoft.com/adm-release-notes/pages/9.14/01-descripcionerrores.html
+    name: Release note 9.14.0.11
+    icon:
+    releasedate: April 13, 2022
+
+  - product: Manuales Aranda Device Management
+    version: Versión Base de Datos 9.5.23
+    url: https://docs.arandasoft.com/adm-release-notes/pages/9.13.1.3/01-descripcionerrores.html
+    name: Release note 9.13.1.3
+    icon:
+    releasedate: March 29, 2022
+
+afls-release-notes:
+  - product: Aranda Field Services
+    version: Versión Base de Datos 9.5.28
+    url: https://docs.arandasoft.com/afls-release-notes/pages/9.14.2/01-CHG-300842.html
+    name: Release note 9.14.2
+    icon:
+    releasedate: September 2, 2022
+
+  - product: Aranda Field Services
+    version: Versión Base de Datos 9.5.27
+    url: https://docs.arandasoft.com/afls-release-notes/pages/9.14.1.6/01-CHG-300807.html
+    name: Release note 9.14.1.6
+    icon:
+    releasedate: August 05, 2022
+
+  - product: Aranda Field Services
+    version: Versión Base de Datos 9.5.26
+    url: https://docs.arandasoft.com/afls-release-notes/pages/9.14.0.5/01-CHG-300768.html
+    name: Release note 9.14.0.5
+    icon:
+    releasedate: July 8, 2022
+
+  - product: Aranda Field Services
+    version: Versión Base de Datos 9.5.25
+    url: https://docs.arandasoft.com/afls-release-notes/pages/9.13.1.3/01-PM-200788.html
+    name: Release note 9.13.1.3
+    icon:
+    releasedate: June 8, 2022
+
+  - product: Aranda Field Services
+    version: Versión Base de Datos 9.5.23
+    url: https://docs.arandasoft.com/afls-release-notes/pages/9.13.0.27/01-CHG-300251.html
+    name: Release note 9.13.0.27
+    icon:
+    releasedate: May 06, 2022
+
+  - product: Aranda Field Services
+    version: Versión Base de Datos 9.5.23
+    url: https://docs.arandasoft.com/afls-release-notes/pages/9.13.0.15/01-CHG-300594.html
+    name: Release note 9.13.0.15
+    icon:
+    releasedate: April 11, 2022
+
+aemm-release-notes:
+  - product: Manuales Aranda Enterprise Mobility Management
+    version: Versión Base de Datos 9.5.28
+    url: https://docs.arandasoft.com/aemm-release-notes/pages/9.24.2/01-Servidor%20de%20Correo%20con%20configuraci%C3%B3n%20OAuth%202.0.html
+    name: Release note 9.24.2
+    icon:
+    releasedate: September 8, 2022
+
+  - product: Manuales Aranda Enterprise Mobility Management
+    version: Versión Base de Datos RC9.5.27.1
+    url: https://docs.arandasoft.com/aemm-release-notes/pages/9.24.1.3/01-google_play_emm_api.html
+    name: Release note 9.24.1.3
+    icon:
+    releasedate: August 10, 2022
+
+  - product: Manuales Aranda Enterprise Mobility Management
+    version: Versión Base de Datos RC9.5.27.1
+    url: https://docs.arandasoft.com/aemm-release-notes/pages/9.23.0.142/01-CHG-22950-19-300421.html 
+    name: Release note 9.23.0.142
+    icon:
+    releasedate: May 02, 2022
+
+  - product: Manuales Aranda Enterprise Mobility Management
+    version: Versión Base de Datos 9.5.26
+    url: https://docs.arandasoft.com/aemm-release-notes/pages/9.24.0.9/01-CHG-27577-19-300577.html
+    name: Release note 9.24.0.9
+    icon:
+    releasedate: July 12, 2022
+
+cmdb-apis:
+  - product: Aranda CMDB
+    version:
+    url: https://docs.arandasoft.com/cmdb-api
+    name: Documentación CMDB V9 APIS´s
+    icon:
+    releasedate: March 24, 2022
+
+  - product: Aranda CMDB
+    version:
+    url: https://docs.arandasoft.com/cmdb-v8-api
+    name: Documentación CMDB V8 APIS´s
+    icon:
+    releasedate: July 12, 2022  
+
+asms-apis:
+  - product: Manuales Aranda Service Management
+    version:
+    url: https://docs.arandasoft.com/asms-api
+    name: Documentación APIS´s
+    icon:
+    releasedate: February 18, 2022
+
+asdk-apis:
+  - product: Manuales Aranda Service Desk
+    version:
+    url: https://docs.arandasoft.com/asdk-api
+    name: Documentación APIS´s
+    icon:
+    releasedate: July 11, 2022
+
+ads:
+  - product: Manuales Aranda Data Safe V9
+    version: Versión 9
+    url: https://docs.arandasoft.com/ads
+    name: Manual de uso ADS
+    icon:
+    releasedate: July 07, 2022
+
+apr:   
+  - product: Manuales Aranda Pass Recovery
+    version: Versión 8.0.89
+    url: https://docs.arandasoft.com/apr
+    name: Manual de uso APR
+    icon:
+    releasedate: July 15, 2022
+
+adm-ts:
+  - product: Troubleshoting Aranda Device Management
+    version:
+    url: https://docs.arandasoft.com/adm-ts
+    name: Documentación Troubleshoting
+    icon:
+    releasedate: August 2, 2022    
+
+common:
+  - product: Manuales Aranda Common
+    version: 
+    url: https://docs.arandasoft.com/common/pages/01-configuracion_autenticacion_moderna/01-precondiciones.html
+    name: Configuración para la Autenticación Moderna OAuth 2.0
+    icon:
+    releasedate: September 1, 2022
+
+version-8:
+  - product: Documentación Aranda CMDB
+    version: 
+    url: https://docs.arandasoft.com/cmdb-v8-release-notes/pages/01-ultima-actualizacion/01-8.11.28.html
+    name: Release Notes e Instaladores CMDB V8
+    icon:
+    releasedate: September 9, 2022    
+ 

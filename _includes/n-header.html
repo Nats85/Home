@@ -1,0 +1,41 @@
+<header class="r-header">
+    <div class="g-container">
+        <div class="c-header__bar">
+            <div class="c-header__logo">
+                <a href="https://arandasoft.com/">
+                    <img src="/assets/images/logo-aranda.svg" alt="Logo Aranda Software">
+                </a>
+            </div>
+            <ul class="c-nav-1 c-header__nav">
+                {% for item in site.data.navbar['navbar'] %}
+                <li>
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="c-header__box">
+            <div class="c-header__col-1">
+                <div class="c-header__heading">
+                    <div class="c-header__heading-icon iconfont-manuales"></div>
+                    <div class="c-header__text">
+                        <h1 class="r-header__text-1">
+                            Notas Release por producto
+                        </h1>
+                        <p class="r-header__text-2">Explore las guías del producto</p>
+                    </div>
+                </div>
+                <!--<div class="c-header__input"><i class="iconfont-search c-header__input-icon"></i>
+                    <input id="r-header-search" class="o-form-field--search" type="text" name="" placeholder="Buscar">
+                    <ul id="r-header-list">
+                    </ul>
+                </div>-->
+            </div>
+            <div class="c-header__col-2">
+                <picture class="c-header__img">
+                    <img src="/assets/images/Notes.png" alt="Book">
+                </picture>
+            </div>
+        </div>
+    </div>
+</header>

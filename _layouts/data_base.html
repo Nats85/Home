@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html {% if site.language %} lang="{{ site.language }}" {% endif %}>
+
+<head>
+  {% include head.html %}
+</head>
+
+<body class="c-block-body">
+  {% include d-header.html %}
+  {% include float-nav.html %}
+  <div class="g-container c-block-1">
+    {% include catalog-database.html %}
+  </div>
+
+  {% include scripts.html %}
+  {% include footer.html %}
+</body>
+
+</html>

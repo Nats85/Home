@@ -1,0 +1,49 @@
+adm:
+  - name: Aranda Device Managemen Release note 9.15.2
+    url: https://docs.arandasoft.com/adm-release-notes/pages/9.15.2/01-PM-31407-19-200928.html
+    releasedate: September 8, 2022
+
+asms:
+  - name: Aranda Service Management Release note 9.3.8
+    url: https://docs.arandasoft.com/asms-release-notes/pages/9.3.8/Auth-Oauth.html
+    releasedate: September 13, 2022
+
+aqm:
+  - name: Aranda Query Manager Release note 9.26
+    url: https://docs.arandasoft.com/aqm-release-notes/pages/9.27/01-autenticaci%C3%B3n-correo-oauth.html
+    releasedate: September 8, 2022
+
+afls:
+  - name: Aranda Field Services Release note 9.14.2
+    url: https://docs.arandasoft.com/afls-release-notes/pages/9.14.2/01-CHG-300842.html
+    releasedate: September 2, 2022
+
+aemm:
+  - name: Aranda Enterprise Mobility Management Release note 9.24.2
+    url: https://docs.arandasoft.com/aemm-release-notes/pages/9.24.2/01-Servidor%20de%20Correo%20con%20configuraci%C3%B3n%20OAuth%202.0.html
+    releasedate: September 8, 2022
+
+adm-release-notes:
+  - name: Release note Aranda KB
+    url: http://it.arandasoft.com:92/kb2/KnowledgebaseArticle10250.aspx "target="_blank"
+    releasedate: April 13, 2022
+
+asms-release-notes:
+  - name: Release note Aranda KB
+    url: http://it.arandasoft.com:92/kb2/KnowledgebaseArticle10248.aspx "target="_blank"
+    releasedate: April 6, 2022
+
+aqm-release-notes:
+  - name: Release note Aranda KB
+    url: http://it.arandasoft.com:92/kb2/KnowledgebaseArticle10245.aspx?Keywords=release "target="_blank"
+    releasedate: February 7, 2022
+
+afls-release-notes:
+  - name: Release note Aranda KB
+    url: http://it.arandasoft.com:92/kb2/KnowledgebaseArticle10251.aspx?Keywords=release "target="_blank"
+    releasedate: April 11, 2022
+
+aemm-release-notes:
+  - name: Release note Aranda KB
+    url: http://it.arandasoft.com:92/kb2/KnowledgebaseArticle10244.aspx?Keywords=aemm "target="_blank"
+    releasedate: May 2, 2022

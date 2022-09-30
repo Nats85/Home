@@ -1,0 +1,73 @@
+<header class="r-header">
+    <div class="g-container">
+        <div class="c-header__bar">
+            <div class="c-header__logo">
+                <a href="https://arandasoft.com/"><img src="/assets/images/logo-aranda.svg"
+                        alt="Logo Aranda Software"></a>
+            </div>
+            <ul class="c-nav-1 c-header__nav">
+                {% for item in site.data.navbar['navbar'] %}
+                <li>
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="c-header__box">
+            <div class="c-header__col-1">
+                <div class="c-header__heading">
+                    <div class="c-header__heading-icon iconfont-manuales"></div>
+                    <div class="c-header__text">
+                        <h1 class="r-header__text-1">Portal de Documentación</h1>
+                        <p class="r-header__text-2">Explore las guías por producto</p>
+                    </div>
+                </div>
+                <div class="c-header__input"><i class="iconfont-search c-header__input-icon"></i>
+                    <input id="r-header-search" class="o-form-field--search" type="text" name="" placeholder="Buscar">
+                    <ul id="r-header-list">
+                    </ul>
+                </div>
+            </div>
+            <div class="c-header__col-2">
+                <picture class="c-header__img">
+                    <img src="/assets/images/books.png" alt="Book">
+                </picture>
+            </div>
+        </div>
+    </div>
+</header>
+<script>
+    document.getElementById("r-header-search").addEventListener("keyup", () => {
+        let searched = document.getElementById("r-header-search").value
+        let catalogs = JSON.parse('{{site.data.catalog.catalog | jsonify }}')
+        let emptyList = document.getElementById("r-header-list")
+
+        let catalogsfiltered = catalogs.filter((catalog) => {
+            if (catalog.title.toLowerCase().includes(searched.toLowerCase()) ||
+                catalog.tags.includes(searched) || catalog.shortname.includes(searched)) {
+                return catalog
+            }
+        })
+
+        let manuals = []
+        '{% for item in site.data.manuales %}'
+        '{% for man in item %}'
+        if (typeof JSON.parse('{{ man | jsonify }}') !== 'string') {
+            manuals = manuals.concat([...JSON.parse('{{ man | jsonify }}')])
+        }
+        '{%endfor%}'
+        '{%endfor%}'
+
+        let manualsfiltered = manuals.filter((manual) => {
+            return manual.name.toLowerCase().includes(searched.toLowerCase())
+        })
+
+        let completeList = ""
+        let finalFilter = catalogsfiltered.concat(manualsfiltered)
+        finalFilter.forEach(({ title, name, url }) => {
+            completeList += `<li><a href="${url}">${title || name}</a></li>`
+        });
+        if (searched === "") completeList = "";
+        emptyList.innerHTML = completeList
+    })
+</script>

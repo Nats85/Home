@@ -1,0 +1,25 @@
+<div class="c-block-1__nav">
+    <ul class="c-nav-2">
+        <li class="iconfont-flecha-der"><a href="https://docs.arandasoft.com/">{{page.home}}</a>
+        </li>
+        <li class="iconfont-flecha-der"><a>{{page.producttitle}}</a>
+        </li>
+    </ul><a class="o-btn--v2" href="#">{{page.releasenotes}}</a>
+</div>
+<div class="c-block-1__filter">
+    <div class="c-nav-3">
+        <div class="c-nav-3__box" data-open="#submenu-filtro">
+            <div class="c-nav-3__icon iconfont-filtro"></div>
+            <div class="c-nav-3__text">{{page.filterby}}</div>
+            <div class="c-nav-3__icon iconfont-flecha-der"></div>
+        </div>
+        <div class="c-nav-3__submenu" id="submenu-filtro">
+            <ul class="c-nav-4">
+                {% for item in site.data.filtros['filters'] %}
+                <li><a href="{{item.url}}">{{item.title}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

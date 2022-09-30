@@ -1,0 +1,55 @@
+<div class="c-block-1__col-1">
+    <div class="c-list-1">
+        {% for manual in site.data.manuales[page.shortname] %}
+        <a class="c-list-1__item iconfont-mas" href="{{manual.url}}">
+            <div class="c-list-1__box">
+
+                <div class="d-flex align-items-center">
+                {% if manual.name %}
+                    <strong class=".c-list-1__item .c-list-1__name .name">{{manual.name}}</strong>
+                {% endif %}
+
+                    {% assign lastReleaseDate = manual.releasedate | date: '%s' %}
+                    {% assign nowTimestamp = 'now' | date: '%s' %}
+                    {% assign diffSeconds = nowTimestamp | minus: lastReleaseDate %}
+                    {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
+
+                    {% if diffDays >= 0 and diffDays <= 7 %}
+                    
+                    <span class="c-list-1_tagnew ml-2">
+                        <p>Nuevo</p>
+                    </span>
+                    {% endif %}
+
+                    {% if manual.icon %}
+                        <img class="ml-3" src="../assets/images/{{manual.icon}}" alt="Icon PDF">
+                    {% endif %}
+                    <br>
+                </div>
+                    {% if manual.version %}
+                    <strong class="mr-2 .c-list-1__version">{{manual.version}}</strong>
+                    {% endif %}
+                
+                <div class="">    
+                <span class="small">
+                    <strong>Fecha de liberación: {{manual.releasedate}}</strong>
+                </span>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+        {% if item.chapter %}
+        <ul>
+            {% for child in site.pages %}
+            {% if child.chapter == item.chapter %}
+            <li>
+                <a href="{{ child.url | relative_url }}" {% if child.url==page.url %} class="active" {% endif %}>
+                    {{ child.title }}
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</div>

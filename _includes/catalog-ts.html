@@ -1,0 +1,32 @@
+<section class="ar-section --white" target="productos">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="ar-section-heading">Aquí podras acceder a las diferentes soluciones a problemas presentados en las funcionalidades por producto</h1>
+            </div>
+        </div>
+        <div class="ar-section__content">
+            <div class="ar-services-container">
+                <div class="row no-gutters">
+
+                    {% for item in site.data.catalog-ts.catalog %}
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ar-badge-service --gray --touch" data-overlay="{{ item.overlay.name }} "
+                            data-bg-color="{{ item.color }}">
+                            <div class="ar-badge-service__icon {{ item.icon }}"></div>
+                            <div class="ar-badge-service__description">
+                                <a href="{{item.url}}">
+                                    <h1>{{ item.title }}</h1>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

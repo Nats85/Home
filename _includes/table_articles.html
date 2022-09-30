@@ -1,0 +1,17 @@
+<div class="c-block-1__col-2">
+    <div class="c-block-1__box-2">
+        <h2 class="c-block-1__heading">Ultimas<span>Actualizaciones</span></h2>
+        <div class="c-list-1--v2">
+            {% for article in site.data.articulos[page.shortname] %}
+            <a class="c-list-1__item iconfont-mas" href="{{article.url}}">
+                <div class="c-list-1__box">
+                    {{article.name}}
+                    <strong class="date">
+                        <strong>Fecha de liberación: {{article.releasedate}}</strong>
+                    </strong>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
